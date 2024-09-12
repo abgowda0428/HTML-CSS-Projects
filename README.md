@@ -17,11 +17,11 @@ Here you will find a variety of web projects that include:
    git clone https://github.com/abgowda0428/HTML-CSS-Projects.git
 
 2. **Navigate to the Project Directory**:
-
+   ```
    cd HTML-CSS-Projects
    
 4. **Open in Browser**:
-
+   ```
    Open index.html in your favorite web browser to see the project in action! 🌍
    
    
