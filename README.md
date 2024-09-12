@@ -18,13 +18,12 @@ Here you will find a variety of web projects that include:
 
 2. **Navigate to the Project Directory**:
    ```
-   cd HTML-CSS-Projects
+    cd HTML-CSS-Projects
    
 4. **Open in Browser**:
    ```
    Open index.html in your favorite web browser to see the project in action! 🌍
-   
-   
+     
 ## 📚 Learn More
 
 - **HTML**: [MDN Web Docs](https://developer.mozilla.org/en-US/docs/Web/HTML)
