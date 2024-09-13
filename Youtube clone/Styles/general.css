@@ -11,3 +11,30 @@ p {
     padding-left: 100px;
     
   }
+
+  .thumbnail-row{
+    position: relative;
+  }
+
+  .video-time{
+    position: absolute;
+    right: 10px;
+    bottom:10px;
+    font-family: Roboto, Arial;
+    font-weight: 500;
+    font-size: 14px;
+    background-color: black;
+    color: white;
+    padding-left: 5px;
+    padding-top: 4px;
+    padding-bottom: 4px;
+    padding-right: 5px;
+    border-radius: 2px;
+  }
+
+  .video-info .video-title a{
+    font-weight: 500;
+    font-size: medium;
+
+  }
+ 
