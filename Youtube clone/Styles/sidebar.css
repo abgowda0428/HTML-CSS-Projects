@@ -1,0 +1,15 @@
+.Sidebar{
+    position: fixed;
+    width: 80px;
+    top:60px;
+    bottom: 0px;
+    left:0px;
+    background-color: white;
+    border-left-width: 0px;
+    border-right-width: 1px;
+    border-top-width: 0px;
+    border-bottom-width: 0px;
+    border-style: solid;
+    border-color: rgb(231, 227, 227);
+    
+}

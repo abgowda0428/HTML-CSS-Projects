@@ -1,5 +1,5 @@
 .header {
-    height: 55px;
+    height: 60px;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
@@ -8,6 +8,12 @@
     right: 0;
     left: 0;
     background-color: white;
+    border-bottom-width: 1px;
+    border-left-width: 0px;
+    border-right-width: 0px;
+    border-top-width: 0px;
+    border-style: solid;
+    border-color: rgb(223, 217, 217);
   }
   
   .left-section {
