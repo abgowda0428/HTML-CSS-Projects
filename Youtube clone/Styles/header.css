@@ -1,5 +1,5 @@
 .header {
-    height: 60px;
+    height: 80px;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
@@ -23,13 +23,16 @@
   }
   
   .hamburger-menu {
-    height: 24px;
-    margin-left: 24px;
+    height: 40px;
+    margin-left: 30px;
     margin-right: 24px;
+    margin-right: 43px;
+    cursor: pointer;
   }
   
   .youtube-logo {
-    height: 20px;
+    height: 30px;
+    cursor: pointer;
   }
   
   .middle-section {
@@ -43,48 +46,73 @@
   
   .search-bar {
     flex: 1;
-    height: 36px;
+    height: 50px;
     padding-left: 10px;
     font-size: 16px;
     border-width: 1px;
     border-style: solid;
-    border-color: rgb(192, 192, 192);
+    border-color: rgb(233, 228, 228);
     border-radius: 2px;
-    box-shadow: inset 1px 2px 3px rgba(0, 0, 0, 0.05);
+    box-shadow: inset 1px 2px 3px rgba(236, 234, 234, 0.05);
     width: 0;
   }
   
   .search-bar::placeholder {
     font-family: Roboto, Arial;
-    font-size: 16px;
+    font-size: 23px;
   }
   
   .search-button {
-    height: 40px;
+    position: relative;
+    height: 54.5px;
     width: 66px;
-    background-color: rgb(240, 240, 240);
+    background-color:white;
     border-width: 1px;
     border-style: solid;
     border-color: rgb(192, 192, 192);
     margin-left: -1px;
     margin-right: 10px;
+    cursor: pointer;
+  }
+
+  .search-button .tool-tip{
+    position: absolute;
+    background-color: rgb(207, 206, 206);
+    padding-left: 4px;
+    padding-top: 2px;
+    padding-bottom: 2px;
+    padding-right: 4px;
+    font-family: Roboto, Arial;
+    font-size: 15px;
+    bottom: -30px;
+    border-radius: 2px;
+    opacity: 0;
+    transition-duration: 0.15s;
+    pointer-events: none;
+  }
+
+  .search-button:hover .tool-tip{
+    opacity: 1;
   }
   
   .search-icon {
-    height: 25px;
+    height: 35px;
     margin-top: 4px;
   }
   
   .voice-search-button {
-    height: 40px;
-    width: 40px;
-    border-radius: 20px;
+    position: relative;
+    height: 55px;
+    width: 50px;
+    border-radius: 30px;
     border: none;
     background-color: rgb(245, 245, 245);
+    margin-left: 10px;
+    cursor: pointer;
   }
   
   .voice-search-icon {
-    height: 24px;
+    height: 30px;
     margin-top: 4px;
   }
   
@@ -98,31 +126,39 @@
   }
   
   .upload-icon {
-    height: 24px;
+    height: 30px;
+    margin-right: 10px;
+    cursor: pointer;
   }
   
   .youtube-apps-icon {
-    height: 24px;
+    height: 30px;
+    margin-right: 10px;
+    cursor: pointer;
   }
   
   .notifications-icon {
-    height: 24px;
+    height: 30px;
+    margin-right: 10px;
+    cursor: pointer;
   }
   
   .current-user-picture {
-    height: 32px;
+    height: 40px;
     border-radius: 16px;
+    cursor: pointer;
   }
   .notification{
     position: relative;
+    
   }
 
-  .notification-number{
+  .notification-num{
     position: absolute;
     background-color: red;
     color: white;
     top: 0;
-    right: 0;
+    right: 9px;
     font-family: Roboto, Arial;
     font-size: 12px;
     border-radius: 20px;
@@ -131,3 +167,5 @@
     padding-top: 1px;
     padding-bottom: 1px;
   }
+
+  

@@ -6,9 +6,11 @@ p {
   
   body {
     margin: 0;
-    padding-top: 80px;
+    padding-top: 100px;
     padding-bottom: 20px;
-    padding-left: 100px;
+    padding-left: 140px;
+    padding-right: 30px;
+    background-color: rgb(247, 245, 245);
     
   }
 
@@ -37,4 +39,13 @@ p {
     font-size: medium;
 
   }
+
+  .video-grid{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+   
+}
+
+
+  
  
