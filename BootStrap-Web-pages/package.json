@@ -1,0 +1,14 @@
+{
+  "name": "bootstrap-web-pages",
+  "version": "1.0.0",
+  "description": "These are webpages are based on the Bootstrap CSS Framework.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Abhishek Gowda H C",
+  "license": "ISC",
+  "dependencies": {
+    "bootstrap": "^5.3.3"
+  }
+}
